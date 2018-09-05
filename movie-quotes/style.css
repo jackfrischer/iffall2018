@@ -1,0 +1,17 @@
+
+body {
+	background-color: black;
+	margin: 5em;
+  	font-family: "adelle";
+  	color: white;
+}
+
+.name {
+	color: lavender;
+}
+
+.action {
+	color: lightblue;
+}
+
+
