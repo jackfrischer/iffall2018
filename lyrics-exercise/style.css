@@ -1,0 +1,34 @@
+
+body {
+	background-color: coral;
+	margin: 5em;
+	text-align: center;
+  	font-family: "abril-text";
+  	color: white;
+  	font-size: 20px;
+  	line-height: 1.8em;
+}
+
+h1 {
+	font-family: "antique-olive";
+	font-size: 300px;
+	line-height: 1.5rem;
+}
+
+h2 {font-family: "abril-text";
+	font-size: 100px;
+	font-weight: lighter;
+	color: darkblue;
+	line-height: 20rem;
+}
+
+.lyric-type {
+	font-weight: lighter;
+	font-family: "antique-olive";
+	color: darkblue;
+	font-size: 30px;
+	line-height: 3em;
+
+}
+
+
