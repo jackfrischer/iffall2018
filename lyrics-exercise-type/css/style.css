@@ -1,0 +1,43 @@
+
+body {
+	margin-left: 20em;
+	padding-bottom: 20em;
+	font-family: "adelle-sans";
+	background-color: hotpink;
+	line-height: 2rem;
+	color:white;
+
+}
+h1 {
+	font-family: "brothers";
+	font-size: 200px;
+	text-decoration: underline;
+	color: white;
+
+}
+
+h2 {
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	font-size: 40px;
+}
+
+.lyric-verse {
+	color: blue;
+	font-family: "brothers";
+	font-size: 30px;
+}
+
+.lyric-chorus {
+	color: greenyellow;
+	font-family: "brothers";
+	font-size: 30px;
+}
+
+.lyric-bridge {
+	color: orange;
+	font-family: "brothers";
+	font-size: 30px;
+}
