@@ -1,0 +1,173 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	
+}
+
+header {
+	margin-top: 0px;
+	text-align: center;
+	background-image: url(https://www.gannett-cdn.com/presto/2018/08/28/USAT/b7cf87e5-b732-40aa-9df4-2d20959e7349-Bottlenose_Dolphin.jpg?crop=4381,2464,x0,y788&width=3200&height=1680&fit=bounds);
+	background-position: center;
+	background-size: cover;
+	color:white;
+	height: 490px;
+
+}
+
+header h1 {
+	margin-top: 0;
+	font-size: 80px;
+	font-weight: 700;
+	padding-top: 163px;
+}
+
+header h2 {
+	margin-top: -50px;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 10px;	
+}
+
+p {
+	line-height: 25px;
+}
+
+.one {
+	background-color: turquoise;
+}
+
+.div_one {
+	display: block;
+    margin: auto;
+	width: 960px;
+	height: 710px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	
+}
+
+.div_one img {
+    padding-left: 40px;
+    padding-top: 115px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+
+
+.div_one h1 {
+	margin: auto;
+	margin-top: 0px;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 18px;
+}
+
+.div_one p {
+	letter-spacing: -.65px;
+	word-spacing: 1px;
+}
+
+.div_one p:nth-of-type(2) {
+	margin-top: -1px;
+}
+
+.div_one p:nth-of-type(3) {
+	margin-top: -3px;
+}
+
+
+.two {
+	background-color: navy;
+	color:white;
+	width: 100%;
+	padding-top: 14px;
+	margin: auto;
+	height: 665px;
+	font-size: 18px;
+	line-height: 25px;
+	
+	
+}
+
+.two h1 {
+	/*margin-top: 62px;*/
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.div_two {
+	margin: auto;
+	margin-left: 250px;
+
+
+}
+
+.word_and_image {
+	width: 450px;
+	padding-top: 13px;
+	padding-bottom: 9px;
+	padding-right: 30px;
+	display: inline-block;
+	
+	
+}
+
+.word_and_image h2 {
+	margin-top: 9px;
+	font-size: 20px;
+	line-height: 10px;
+	
+}
+
+.word_and_image p {
+	margin-top: -1px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.word_and_image img {
+	padding-right: 12px;
+	float: left;
+}
+
+.three {
+	background-color: turquoise;
+	color:white;
+}
+
+.div_three {
+	width: 730px;
+	height: 390px;
+	padding-top: 15px;
+	margin:	auto;
+	text-align: center;
+	}
+
+.div_three h1 {
+	margin-bottom: 38px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.div_three p {
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 35px;
+
+}
+
+footer {
+	padding-top: 40px;
+	margin-left: 252px;
+}
+
+
+
+
+
