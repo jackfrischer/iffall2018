@@ -1,0 +1,38 @@
+.one aside {
+	position: relative;
+	float: right;
+}
+
+.two aside {
+	position: relative;
+	float: right;
+	top: 125px;
+
+}
+
+.three aside {
+	background-color: green;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.four {
+	position: relative;
+}
+
+.four .aside1 {
+	background-color: black;
+	position: absolute;
+	top: 210px;
+	left: 335px;
+	
+}
+
+.four .aside2 {
+	background-color: red;
+	position: absolute;
+	z-index: 100px;
+	top: 200px;
+	left: 325px;
+}
