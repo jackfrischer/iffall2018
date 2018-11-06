@@ -1,0 +1,488 @@
+a {
+  display: block; /* turn the inline element into a box */
+  position: fixed; /* position the anchor fixed to the viewport */
+  top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+  bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+  left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+  right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+  z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+
+.postcard1 {
+      font-weight: 700;
+      color: white;
+      font-family: "bodoni-urw, serif;";
+      background-image: url(images/postcard1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      box-sizing: border-box;
+    }
+
+.postcard2 {
+      font-weight: 700;
+      color: #cc3333;
+      font-family: "bodoni-urw, serif;";
+      background-image: url(images/postcard2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      box-sizing: border-box;
+    }
+
+.postcard3 {
+      font-weight: 700;
+      color: black;
+      font-family: "bodoni-urw, serif;";
+      background-image: url(images/postcard3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      box-sizing: border-box;
+    }    
+
+.quote1 {
+  font-size: 40px;
+  padding-left: 30px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 20%;
+}
+
+.ednamode1 {
+  padding-left: 50px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 15%;
+}
+
+.quote2 {
+  font-size: 350px;
+  padding-left: 20px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 15%;
+}
+
+.quote2-2 {
+  font-size: 250px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.ednamode2 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.quote3 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.quote3-2 {
+  font-size: 75px;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.ednamode3 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5%;
+  right: 25%;
+}
+
+
+
+@media (min-width: 320px) {
+.quote1 {
+  font-size: 25px;
+  padding-left: 100px;
+  width: 55%;
+  line-height: 45px;
+  position: absolute;
+  bottom: 70%;
+}
+
+.ednamode1 {
+  padding-left: 100px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 65%;
+}
+.quote2 {
+  font-size: 140px;
+  padding-left: 0px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 5%;
+}
+
+.quote2-2 {
+  font-size: 80px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 3%;
+}
+
+.ednamode2 {
+  font-size: 18px;
+  position: absolute;
+  bottom: 20%;
+  right: 4%
+    }
+.quote3 {
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  padding-top: 160px;
+}
+
+.quote3-2 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  line-height: 50px;
+  padding-top: 50px;
+}
+
+.ednamode3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 40%;
+  right:10%;
+  }
+
+@media (min-width: 480px) {
+.quote1 {
+  font-size: 30px;
+  padding-left: 160px;
+  width: 55%;
+  line-height: 45px;
+  position: absolute;
+  bottom: 70%;
+}
+
+.ednamode1 {
+  padding-left: 160px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 65%;
+}
+
+.quote2 {
+  font-size: 220px;
+  padding-left: 5px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 10%;
+}
+
+.quote2-2 {
+  font-size: 120px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.ednamode2 {
+  font-size: 18px;
+  position: absolute;
+  bottom: 20%;
+  right: 18%;
+}
+.quote3 {
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  padding-top: 160px;
+}
+
+.quote3-2 {
+  font-size: 55px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.ednamode3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 40%;
+  right:10%;
+  }
+    }
+
+
+@media (min-width: 640px) {
+.quote1 {
+  font-size: 30px;
+  padding-left: 150px;
+  width: 40%;
+  line-height: 45px;
+  position: absolute;
+  bottom: 70%;
+}
+
+.ednamode1 {
+  padding-left: 150px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 65%;
+}
+
+.quote2 {
+  font-size: 260px;
+  padding-left: 5px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 10%;
+}
+
+.quote2-2 {
+  font-size: 150px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.ednamode2 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+.quote3 {
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.quote3-2 {
+  font-size: 55px;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.ednamode3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 40%;
+  right:10%;
+  }
+    }
+
+@media (min-width: 800px) {
+.quote1 {
+  font-size: 30px;
+  padding-left: 30px;
+  width: 30%;
+  line-height: 45px;
+  position: absolute;
+  bottom: 25%;
+}
+
+.ednamode1 {
+  padding-left: 50px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 21%;
+}
+.quote2 {
+  font-size: 280px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 13%;
+}
+
+.quote2-2 {
+  font-size: 180px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.ednamode2 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+.quote3 {
+  font-size: 45px;
+  text-align: center;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.quote3-2 {
+  font-size: 65px;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.ednamode3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 12%;
+  right:10%;
+    }
+
+@media (min-width: 1024px) {
+
+.quote1 {
+  font-size: 35px;
+  padding-left: 30px;
+  width: 25%;
+  line-height: 45px;
+  position: absolute;
+  bottom: 25%;
+}
+
+.ednamode1 {
+  padding-left: 50px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 20%;
+}
+.quote2 {
+  font-size: 350px;
+  padding-left: 20px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 15%;
+}
+
+.quote2-2 {
+  font-size: 250px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.ednamode2 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+.quote3 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.quote3-2 {
+  font-size: 75px;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.ednamode3 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 12%;
+  right: 20%;
+}
+    }
+
+@media (min-width: 1280px) {
+.quote1 {
+  font-size: 40px;
+  padding-left: 30px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 20%;
+}
+
+.ednamode1 {
+  padding-left: 50px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 15%;
+}
+
+.quote2 {
+  font-size: 350px;
+  padding-left: 20px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  top: 15%;
+}
+
+.quote2-2 {
+  font-size: 250px;
+  padding-left: 10px;
+  width: 25%;
+  line-height: 55px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.ednamode2 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+.quote3 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.quote3-2 {
+  font-size: 75px;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.ednamode3 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 12%;
+  right: 20%;
+}
+    }
+
+    
