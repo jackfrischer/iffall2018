@@ -1,0 +1,19 @@
+body {
+	background-image: url(../css/images/green.jpeg);
+}
+
+#other {
+	font-weight: 700;
+}
+
+img {
+	width: 18%;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.body{
+	width: 25%;
+	display: inline-block;
+	margin-top: 0;
+}

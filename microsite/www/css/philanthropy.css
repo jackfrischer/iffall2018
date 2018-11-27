@@ -1,0 +1,23 @@
+body {
+	background-image: url(../css/images/green.jpeg);
+}
+
+#philanthropy {
+	font-weight: 700;
+}
+
+img {
+	display: inline-block;
+	width: 60%;
+	padding-top: 50px;
+	padding-right: 25px;
+	float: right;
+}
+
+
+.text {
+	display: inline-block;
+	padding-left: 25px;
+	width: 30%;
+}
+
