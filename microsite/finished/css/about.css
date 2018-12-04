@@ -1,0 +1,128 @@
+body {
+	background-image: url(../css/images/tan.jpeg);
+}
+
+#about {
+	font-weight: 700;
+
+}
+
+.image {
+	display: inline-block;
+	width: 30%;
+	padding-top: 50px;
+	padding-left: 25px;
+	float: left;
+}
+
+img {
+	width:100%;
+	padding-bottom: 25px;
+}
+
+.text {
+	display: inline-block;
+	padding-left: 30px;
+	width: 60%;
+}
+
+@media (min-width: 300px) {
+	.image {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 90%;
+    	}
+    		img {
+    		display: inline-block;
+		width:100%;
+		padding-right: 10px;
+}
+
+    }
+
+
+    @media (min-width: 400px) {
+    	.image {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 90%;
+    	}
+    		img {
+    		display: inline-block;
+		width:100%;
+		padding-right: 10px;
+}
+
+    }
+
+
+    @media (min-width: 550px) {
+    	.image {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 90%;
+    	}
+    	img {
+    		display: inline-block;
+		width:100%;
+		padding-right: 10px;
+}
+
+    }
+
+
+    @media (min-width: 750px) {
+    	.image {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 90%;
+    	}
+    	img {
+		width:30%;
+		padding-right: 15px;
+}
+      }
+
+    @media (min-width: 1000px) {
+    	.image {
+    		display: inline-block;
+    		float: left;
+    		width: 30%;
+    	}
+    	.text {
+    		width: 60%;
+    	}
+    	img {
+    		display: inline-block;
+		width:100%;
+    }
+
+ 
+    @media (min-width: 1200px) {
+    	.image {
+    		display: inline-block;
+    		float: left;
+    		width: 30%;
+    	}
+    	.text {
+		display: inline-block;
+		padding-left: 30px;
+		width: 60%;
+			}
+			img {
+    		display: inline-block;
+		width:100%;
+}
+    	}

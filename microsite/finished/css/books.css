@@ -1,0 +1,282 @@
+body {
+	background-image: url(../css/images/blue.jpeg);
+}
+
+#books {
+	font-weight: 700;
+
+}
+
+.image-and-buttons {
+	display: inline-block;
+	width: 60%;
+	padding-top: 50px;
+	padding-left: 25px;
+	float: left;
+}
+
+.elephant {
+	width: 100%;
+}
+
+.text {
+	display: inline-block;
+	padding-left: 30px;
+	width: 30%;
+}
+
+.book-button {
+	display: inline-block;
+	padding: 20px; 
+
+}
+.button-container {
+	text-align: center;
+}
+
+.button-image {
+	height: 300px;
+}
+
+
+/*Book 1*/
+a#btn_1 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_1 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_1:hover img:first-child {
+	display: none;
+}
+a#btn_1:hover img:last-child {
+	display:block;
+}
+
+
+/*Book 2*/
+a#btn_2 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_2 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_2:hover img:first-child {
+	display: none;
+}
+a#btn_2:hover img:last-child {
+	display:block;
+}
+
+
+/*Book 3*/
+a#btn_3 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_3 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_3:hover img:first-child {
+	display: none;
+}
+a#btn_3:hover img:last-child {
+	display:block;
+}
+
+
+/*Book 4*/
+a#btn_4 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_4 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_4:hover img:first-child {
+	display: none;
+}
+a#btn_4:hover img:last-child {
+	display:block;
+}
+
+
+/*Book 5*/
+a#btn_5 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_5 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_5:hover img:first-child {
+	display: none;
+}
+a#btn_5:hover img:last-child {
+	display:block;
+}
+
+
+/*Book 6*/
+a#btn_6 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_6 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_6:hover img:first-child {
+	display: none;
+}
+a#btn_6:hover img:last-child {
+	display:block;
+}
+
+
+/*Book 7*/
+a#btn_7 img:first-child {
+	display: block;
+	margin: auto;
+}
+a#btn_7 img:last-child {
+	display: none;
+	margin: auto;
+}
+a#btn_7:hover img:first-child {
+	display: none;
+}
+a#btn_7:hover img:last-child {
+	display:block;
+}
+
+
+
+@media (min-width: 300px) {
+	.image-and-buttons {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 80%;
+    	}
+        .button-image {
+		height: 75px;
+		}
+		.book-button {
+	display: inline-block;
+	padding: 8px; 
+
+}
+
+    }
+
+
+    @media (min-width: 400px) {
+    	.image-and-buttons {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 80%;
+    	}
+   			.button-image {
+		height: 100px;
+		}
+		.book-button {
+	display: inline-block;
+	padding: 10px; 
+
+}
+
+    }
+
+
+    @media (min-width: 550px) {
+    	.image-and-buttons {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 80%;
+    	}
+    	.button-image {
+		height: 140px;
+		}
+		.book-button {
+	display: inline-block;
+	padding: 15px; 
+
+}
+
+    }
+
+
+    @media (min-width: 750px) {
+    	.image-and-buttons {
+    		display: block;
+    		float: none;
+    		width: 90%;
+    	}
+    	.text {
+    		width: 80%;
+    	}
+     .button-image {
+		height: 160px;
+		}
+		.book-button {
+	display: inline-block;
+	padding: 18px; 
+
+}
+      }
+
+    @media (min-width: 1000px) {
+    	.image-and-buttons {
+    		display: inline-block;
+    		float: left;
+    		width: 60%;
+    	}
+    	.text {
+    		width: 30%;
+    	}
+      	.button-image {
+		height: 180px;
+		}
+		.book-button {
+	display: inline-block;
+	padding: 18px; 
+
+}
+    }
+
+ 
+    @media (min-width: 1200px) {
+    	.image-and-buttons {
+    		display: inline-block;
+    		float: left;
+    		width: 60%;
+    	}
+    	.text {
+    		width: 30%;
+    	}
+    	.button-image {
+		height: 250px;
+		}
+		.book-button {
+	display: inline-block;
+	padding: 20px; 
+
+}
+
+    }

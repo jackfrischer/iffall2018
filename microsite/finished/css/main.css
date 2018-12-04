@@ -1,0 +1,226 @@
+
+body {
+
+}
+.menubar {
+	background-color: #2C2348;
+	width: 100%;
+	box-sizing: border-box;
+	height:	90px;
+	text-align: center;
+
+}
+
+#home {
+	font-size: 3.25em;
+	font-family: freight-big-pro, serif;
+	font-weight: 900;
+}
+
+
+.title {
+	font-size: 5em;
+	font-family: freight-big-pro, serif;
+	font-weight: 400;
+	color: white;
+	
+}
+
+.body {
+	font-size: 1.5em;
+	font-family: freight-text-pro, serif;
+	font-weight: 500;
+	line-height: 1.65em;
+	color: white;
+	}
+
+.caption {
+	font-size: 1em;
+	font-family: freight-text-pro, serif;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: white;
+	}
+
+a.button {
+	display: inline-block;
+	font-size: 1.25em;
+	font-family: freight-text-pro, serif;
+	font-weight: 500;
+	text-decoration-line: none;
+	color:	white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	text-align: center;
+	
+}
+
+	.menu-button {
+			position: fixed;
+			top: 30px;
+			left: 20px;
+			font-size: 40px;
+			z-index: 20;
+			transition: all .75s;
+			color: white;
+		}
+
+		.menu-button.button_open {
+			left: 150px;
+		}
+
+		.menu {
+			background-color: #2C2348;
+			width: 200px;
+			padding-top: 40px;
+			position: fixed;
+			top: 0;
+			z-index: 10;
+			left: -200px;
+			transition: all .75s;
+		}
+
+		.menu.open {
+			left: 0px;
+		}
+
+		.menu a {
+			display: block;
+			padding: 1em 3em;
+			border-bottom: 1px solid #999;
+			font-size: 1em;
+			font-family: freight-text-pro, serif;
+			font-weight: 500;
+			color: white;
+			text-decoration: none;
+
+		}
+
+
+
+
+a.button:hover {
+	font-weight: 700;
+}
+
+footer {
+	color: white;
+	line-height: 5px;
+	font-size: 13px;
+	position: relative;	
+	bottom: 2%;
+	left: 2%;
+}
+
+
+
+
+
+
+@media (min-width: 300px) {
+	a.button {
+    	display: none;
+    }
+    #home {
+    	display: inline-block;
+    }
+}
+    }
+
+
+    @media (min-width: 400px) {
+	a.button {
+    	display: none;
+    }
+    #home {
+    	display: inline-block;
+    }
+}
+    }
+
+
+    @media (min-width: 550px) {
+    a.button {
+    	display: none;
+    }
+    #home {
+    	display: inline-block;
+    }
+}
+
+
+    @media (min-width: 750px) {
+a.button {
+	display: inline-block;
+	font-size: .9em;
+	font-family: freight-text-pro, serif;
+	font-weight: 500;
+	text-decoration-line: none;
+	color:	white;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	text-align: center;	
+}
+#home {
+	font-size: 3.15em;
+	font-family: freight-big-pro, serif;
+	font-weight: 900;
+	text-align: center;
+}
+.menu-button {
+	display: none;
+}
+      }
+
+    @media (min-width: 1000px) {
+a.button {
+	display: inline-block;
+	font-size: 1.15em;
+	font-family: freight-text-pro, serif;
+	font-weight: 500;
+	text-decoration-line: none;
+	color:	white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	text-align: center;	
+}
+#home {
+	font-size: 3.15em;
+	font-family: freight-big-pro, serif;
+	font-weight: 900;
+	text-align: center;
+}
+.menu-button {
+	display: none;
+}
+
+    }
+
+ 
+    @media (min-width: 1200px) {
+a.button {
+	display: inline-block;
+	font-size: 1.25em;
+	font-family: freight-text-pro, serif;
+	font-weight: 500;
+	text-decoration-line: none;
+	color:	white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	text-align: center;	
+}
+#home {
+	font-size: 3.25em;
+	font-family: freight-big-pro, serif;
+	font-weight: 900;
+	text-align: center;
+}
+.menu-button {
+	display: none;
+}
+
+
